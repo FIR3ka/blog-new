@@ -29,9 +29,6 @@ export default function About(){
             <div className="items-center bg-stone-50">
                 <div className='lg:pt-[10em] pt-[3em] lg:w-[900px] mx-auto min-h-screen px-[1.1em] lg:px-[0] pb-[2em]'>
                     <div>
-                        <h2 className="mdx-h1 pb-[0.3em]">
-                            Obiettivi del Blog
-                        </h2>
                         <div>
                             <h3 className="mdx-h2 ">Divulgazione Storica</h3>
                             <p className="mdx-p text-stone-800 mt-1">Approfondire e raccontare le vicende militari che hanno segnato la storia, analizzando battaglie, strategie, personaggi e innovazioni tecnologiche.</p>
@@ -55,12 +52,12 @@ export default function About(){
                     </div>
 
                     <div>
-                        <h2 className="mdx-h1">Chi siamo</h2>
+                        <h2 className="mdx-h2">Chi siamo</h2>
                         <p className="mdx-p text-stone-800 mt-1">Siamo due appassionati di storia militare che hanno deciso di unire le forze per creare questo blog. Da anni ci immergiamo tra libri, documentari e discussioni su strategie, battaglie, mezzi bellici e figure storiche che hanno lasciato il segno. Il nostro obiettivo? Condividere questa passione con chiunque voglia approfondire la storia militare in modo chiaro, dettagliato e, perché no, anche coinvolgente. 
                             
                             <br></br><br></br>
 
-                            Qui troverete articoli su guerre, armi, tattiche e tutto ciò che ruota attorno al mondo militare, con un occhio sia all'analisi storica che alla curiosità. Non siamo accademici, ma cerchiamo di essere il più accurati possibile, senza rinunciare a uno stile accessibile e diretto.
+                            Qui troverete articoli su guerre, armi, tattiche e tutto ciò che ruota attorno al mondo militare, con un occhio sia all &apos analisi storica che alla curiosità. Non siamo accademici, ma cerchiamo di essere il più accurati possibile, senza rinunciare a uno stile accessibile e diretto.
 
                             <br></br><br></br>
                             Se anche voi amate la storia militare, siete nel posto giusto!</p>
