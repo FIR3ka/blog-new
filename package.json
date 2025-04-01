@@ -1,0 +1,42 @@
+{
+  "name": "blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@lexical/react": "^0.29.0",
+    "@mdx-js/loader": "^3.1.0",
+    "@mdx-js/react": "^3.1.0",
+    "@mdxeditor/editor": "^3.29.1",
+    "@next/mdx": "^15.2.3",
+    "@types/mdx": "^2.0.13",
+    "fast-glob": "^3.3.3",
+    "fs": "^0.0.1-security",
+    "glob": "^11.0.1",
+    "lexical": "^0.29.0",
+    "mysql2": "^3.14.0",
+    "net": "^1.0.2",
+    "next": "15.2.3",
+    "next-mdx-remote": "^5.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "swr": "^2.3.3",
+    "tel": "^0.1.0",
+    "tls": "^0.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.17.27",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "9.23.0",
+    "eslint-config-next": "15.2.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
