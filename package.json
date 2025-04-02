@@ -33,6 +33,7 @@
     "tls": "^0.0.1"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.12",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20.17.27",
     "@types/react": "^19",
