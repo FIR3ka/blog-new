@@ -6,11 +6,12 @@ import { InferGetStaticPropsType } from "next"
 import Header from "@/app/header"
 import Footer from "@/app/footer"
 
-
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "@/app/globals.css";
 import { extname, parse } from 'path';
+
+export const runtime = "edge";
 
 export const geistSans  = Geist({
   variable: "--font-geist-sans",
