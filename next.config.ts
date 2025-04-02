@@ -1,8 +1,10 @@
  import type { NextConfig } from "next"; 
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  /* config options here */  
+
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
+  
 
   transpilePackages: ['@mdxeditor/editor'],
   reactStrictMode: true,
@@ -13,6 +15,7 @@ const nextConfig: NextConfig = {
     // config.experiments.topLevelAwait = true
     return config
   }
+  
 
 };
 
